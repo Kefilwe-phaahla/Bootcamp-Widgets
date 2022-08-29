@@ -1,0 +1,76 @@
+body {
+    background-color: #ffd6ff;
+    font-family:'Times New Roman', Times, serif
+}
+
+h1 {
+    text-align: center;
+}
+
+.message {
+    background-color: #bbd0ff;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.click {
+    background-color: #c8b6ff;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: 1px solid #0000006c;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+
+.intext>label {
+    display: inline-block;
+    width: 12em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.intext>input[type="text"] {
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-right: 1.5em;
+}
+
+.intext2>label {
+    display: inline-block;
+    width: 12em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.intext2>input[type="text"] {
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-right: 1.5em;
+    width: 21em;
+}
+
+.airtime>label {
+    display: inline-block;
+    width: 16em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.airtime>input[type="text"] {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.widgets {
+    display: flex;
+}
+
+.widget-Disp {
+    flex: 1;
+    border: 1px solid #c8b6ff;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 3em;
+    
+}
+
